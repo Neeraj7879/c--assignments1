@@ -4,14 +4,17 @@ namespace c__assignmet1
 {
     public delegate void IdCalledDelegate(object sender, EventArgs args);
 
+    /* Employee class for computation */
     public class Employee
     {
+        /* private declation of variable*/
         private int id;
         private string name;
         private string departmentName;
 
         public Employee(int id, string name, string departmentName)
         {
+            /* Constructor call*/
             this.id = id;
             this.name = name;
             this.departmentName = departmentName;
@@ -24,18 +27,21 @@ namespace c__assignmet1
 
         public int GetId()
         {
+            /* event call*/
             IdCall(this, new EventArgs());
             return id;
         }
 
         public String GetName()
         {
+            /* event call*/
             NameCall(this, new EventArgs());
             return name;
         }
 
         public String GetDepartmentName()
         {
+            /* event call*/
             DepNameCall(this, new EventArgs());
             return departmentName;
         }
