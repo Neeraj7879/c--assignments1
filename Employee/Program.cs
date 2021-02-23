@@ -28,19 +28,28 @@ namespace c__assignmet1
                     Console.WriteLine("Enter a positive Integer as ID");
 
                 }
-                Console.Write("Enter Department Name :-");
+                Console.Write("Enter Department Name :- ");
                 String DepartmentName = Console.ReadLine();
 
                 var employee = new Employee(id, Name, DepartmentName);
                 employee.NameCall += Event_NameCalled;
                 employee.IdCall += Event_IdCalled;
                 employee.DepNameCall += Event_DeptNameCalled;
+                Getdata(employee);
 
-                Console.WriteLine($"Employee Id     :- {employee.GetId()}");
-                Console.WriteLine();
-                Console.WriteLine($"Employee Name   :- {employee.GetName()}");
-                Console.WriteLine();
-                Console.WriteLine($"Department Name :- {employee.GetDepartmentName()}");
+                /* update Data Part*/
+
+                Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
+                Console.WriteLine("Type Y if you want to update data or any other to exit ");
+                Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
+                if (Convert.ToChar(Console.ReadLine()) == 'y')
+                {
+                    Updatedata(employee);
+                }
+                else
+                {
+                    Console.WriteLine("");
+                }
             }
 
             catch (Exception)
@@ -51,6 +60,39 @@ namespace c__assignmet1
 
 
         }
+        /* Data Print Method*/
+        private static void Getdata(Employee employee)
+        {
+            Console.WriteLine($"Employee Id     :- {employee.GetId()}");
+            Console.WriteLine();
+            Console.WriteLine($"Employee Name   :- {employee.GetName()}");
+            Console.WriteLine();
+            Console.WriteLine($"Department Name :- {employee.GetDepartmentName()}");
+
+
+        }
+        /* Data Update Method*/
+        private static void Updatedata(Employee employee)
+        {
+            Console.WriteLine("Write id to be updated");
+            int id = Convert.ToInt32(Console.ReadLine());
+            employee.update(id);
+            Console.WriteLine("Write name to be updated");
+            string name = Console.ReadLine();
+            employee.update(name);
+            Console.WriteLine("Write department_name to be updated");
+            string DepartmentName = Console.ReadLine();
+            employee.update(id, DepartmentName);
+            Console.WriteLine("---------------------");
+            Console.WriteLine("Successfully updated");
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("Updated Result : ");
+            Console.WriteLine("");
+            Getdata(employee);
+            Console.WriteLine("----------------------------------------------------------");
+
+        }
+
         /* event calls */
         static void Event_IdCalled(object sender, EventArgs e)
         {
@@ -66,5 +108,8 @@ namespace c__assignmet1
         {
             Console.WriteLine("GetDepartmentName() Called");
         }
+
+
+
     }
 }

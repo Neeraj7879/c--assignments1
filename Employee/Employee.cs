@@ -59,6 +59,21 @@ namespace c__assignmet1
             this.departmentName = DepartmentName;
         }
 
+        public void update(int x)
+        {
+            this.id = x;
+        }
+        public void update(string name)
+        {
+            this.name = name;
+        }
+
+        public void update(int i, string x)
+        {
+            if (this.id == i)
+                this.departmentName = x;
+        }
+
 
     }
 }
