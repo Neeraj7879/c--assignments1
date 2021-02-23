@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\c# assignment1.csproj": {}
+    "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\Employee\\c# assignment1.csproj": {}
   },
   "projects": {
-    "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\c# assignment1.csproj": {
+    "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\Employee\\c# assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\c# assignment1.csproj",
+        "projectUniqueName": "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\Employee\\c# assignment1.csproj",
         "projectName": "c# assignment1",
-        "projectPath": "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\c# assignment1.csproj",
+        "projectPath": "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\Employee\\c# assignment1.csproj",
         "packagesPath": "C:\\Users\\neera\\.nuget\\packages\\",
-        "outputPath": "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\obj\\",
+        "outputPath": "H:\\practice codes\\dot net c#\\19-02-2021\\c# assignment1\\Employee\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\neera\\AppData\\Roaming\\NuGet\\NuGet.Config"
