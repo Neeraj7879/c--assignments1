@@ -83,13 +83,11 @@ namespace c__assignmet1
             Console.WriteLine("Write department_name to be updated");
             string DepartmentName = Console.ReadLine();
             employee.update(id, DepartmentName);
-            Console.WriteLine("---------------------");
-            Console.WriteLine("Successfully updated");
-            Console.WriteLine("----------------------------------------------------------");
-            Console.WriteLine("Updated Result : ");
             Console.WriteLine("");
+            Console.WriteLine("Data Successfully updated");
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("Updated Result : ");
             Getdata(employee);
-            Console.WriteLine("----------------------------------------------------------");
 
         }
 
@@ -108,8 +106,6 @@ namespace c__assignmet1
         {
             Console.WriteLine("GetDepartmentName() Called");
         }
-
-
 
     }
 }
