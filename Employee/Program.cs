@@ -61,7 +61,7 @@ namespace c__assignmet1
 
         }
         /* Data Print Method*/
-        private static void Getdata(Employee employee)
+        private static void Getdata()
         {
             Console.WriteLine($"Employee Id     :- {employee.GetId()}");
             Console.WriteLine();
@@ -72,7 +72,7 @@ namespace c__assignmet1
 
         }
         /* Data Update Method*/
-        private static void Updatedata(Employee employee)
+        private static void Updatedata()
         {
             Console.WriteLine("Write id to be updated");
             int id = Convert.ToInt32(Console.ReadLine());
