@@ -40,7 +40,7 @@ namespace c__assignmet1
                 /* update Data Part*/
 
                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
-                Console.WriteLine("Type Y if you want to update data or any other to exit ");
+                Console.WriteLine("Type Y if you want to update data or any other key to exit ");
                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
                 if (Convert.ToChar(Console.ReadLine()) == 'y')
                 {
@@ -61,7 +61,7 @@ namespace c__assignmet1
 
         }
         /* Data Print Method*/
-        private static void Getdata()
+        private static void Getdata(Employee employee)
         {
             Console.WriteLine($"Employee Id     :- {employee.GetId()}");
             Console.WriteLine();
@@ -72,17 +72,45 @@ namespace c__assignmet1
 
         }
         /* Data Update Method*/
-        private static void Updatedata()
+        private static void Updatedata(Employee employee)
         {
-            Console.WriteLine("Write id to be updated");
-            int id = Convert.ToInt32(Console.ReadLine());
-            employee.update(id);
-            Console.WriteLine("Write name to be updated");
-            string name = Console.ReadLine();
-            employee.update(name);
-            Console.WriteLine("Write department_name to be updated");
-            string DepartmentName = Console.ReadLine();
-            employee.update(id, DepartmentName);
+            Console.WriteLine("Select option to update \n 1.Only update ID \n 2.Only update Name \n 3.Only Update departnment \n 4.Update all");
+            int case_no = Convert.ToInt32(Console.ReadLine());
+            switch (case_no)
+            {
+                case 1:
+                    Console.WriteLine("Write id to be updated");
+                    int id = Convert.ToInt32(Console.ReadLine());
+                    employee.update(id);
+                    break;
+
+                case 2:
+                    Console.WriteLine("Write name to be updated");
+                    string name = Console.ReadLine();
+                    employee.update(name);
+                    break;
+
+                case 3:
+                    Console.WriteLine("Write id to be updated");
+                    int id_2 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Write department_name to be updated");
+                    string DepartmentName = Console.ReadLine();
+                    employee.update(id_2, DepartmentName);
+                    break;
+
+                case 4:
+                    Console.WriteLine("Write id to be updated");
+                    int id_1 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Write name to be updated");
+                    string name_1 = Console.ReadLine();
+                    Console.WriteLine("Write department_name to be updated");
+                    string DepartmentName_1 = Console.ReadLine();
+                    employee.updateALL(id_1, name_1, DepartmentName_1);
+                    break;
+
+
+
+            }
             Console.WriteLine("");
             Console.WriteLine("Data Successfully updated");
             Console.WriteLine("--------------------------");

@@ -70,8 +70,21 @@ namespace c__assignmet1
 
         public void update(int id_update, string departmentName_update)
         {
+            /* Checking new if and old id match or not  */
             if (this.id == id_update)
                 this.departmentName = departmentName_update;
+            else
+            {
+                Console.WriteLine("Previous ID and Enter ID does not match ");
+            }
+        }
+        public void updateALL(int id_update, string Name_update, string departmentName_update)
+        {
+            /* Checking new if and old id match or not  */
+            this.id = id_update;
+            this.name = Name_update;
+            this.departmentName = departmentName_update;
+
         }
 
 

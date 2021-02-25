@@ -30,3 +30,19 @@ H:\practice codes\dot net c#\19-02-2021\c# assignment1\Employee\obj\Debug\net5.0
 H:\practice codes\dot net c#\19-02-2021\c# assignment1\Employee\obj\Debug\net5.0\ref\c# assignment1.dll
 H:\practice codes\dot net c#\19-02-2021\c# assignment1\Employee\obj\Debug\net5.0\c# assignment1.pdb
 H:\practice codes\dot net c#\19-02-2021\c# assignment1\Employee\obj\Debug\net5.0\c# assignment1.genruntimeconfig.cache
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.csprojAssemblyReference.cache
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.AssemblyInfoInputs.cache
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.AssemblyInfo.cs
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.csproj.CoreCompileInputs.cache
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.dll
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\ref\c# assignment1.dll
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.pdb
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\bin\Debug\net5.0\c# assignment1.exe
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\bin\Debug\net5.0\c# assignment1.deps.json
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\bin\Debug\net5.0\c# assignment1.runtimeconfig.json
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\bin\Debug\net5.0\c# assignment1.runtimeconfig.dev.json
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\bin\Debug\net5.0\c# assignment1.dll
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\bin\Debug\net5.0\ref\c# assignment1.dll
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\bin\Debug\net5.0\c# assignment1.pdb
+C:\Users\neera\OneDrive\Desktop\c-sharp_assignments1-main\Employee\obj\Debug\net5.0\c# assignment1.genruntimeconfig.cache
